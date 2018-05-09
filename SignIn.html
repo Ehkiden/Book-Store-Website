@@ -1,0 +1,50 @@
+<html>
+<!--
+File name: SignIn.html
+Original Author: Leah Woodworth
+Edits made by: Patrick True
+Purpose:	Displays the username and password text fields and once the user clicks submit, redirect to SignInProcessor.php
+-->
+  <style>
+    body {background-color:lightblue;}
+  </style>
+	
+	<body>
+	<center>
+	<!--display the form and title-->
+	<form action="SignInProcessor.php" method="post">
+    
+	<h1 align="center"> Welcome to The Bookworm Bookstore</h1> <br/>
+		
+	<table>
+		<tbody>
+		<tr>
+		<td colspan="2">Please log in to continue</td>
+		</tr>
+		<tr>
+		<td>Username:</td>
+		<td><input type="text" name="username"></td>
+		</tr>
+		<tr>
+		<td>Password:</td>
+		<td><input type="password" name="password"></td>
+		</tr>
+		</tbody>
+	</table>
+
+	<input type="submit" value="Log In"><br/>
+
+	
+		
+	<br/>
+	</form>
+	<!--display the form for new users-->
+	<form action="RegisterPage.html"
+	method="post">
+
+			<input type="submit" value="New User"><br/>
+
+	</form>
+	</center>
+	</body>
+</html>

@@ -1,0 +1,75 @@
+<html>
+<!--
+File name: RegisterPage.html
+Original Author: Patrick True
+Edits made by: Leah Woodworth
+Purpose:	Displays text fields for the user to fill out. Once done, redirect to RegisterProcessor.php while passing in the user submitted data
+-->
+<style>
+	body {background-color:lightblue;}
+	div.a{
+			position: absolute;
+    		top: 10px;
+    		left: 10px;
+		}
+</style>
+	<center>
+	<body>
+	<!--displays the back button to go back the sign in page-->
+		<div class="a">
+		<a href="SignIn.html">Back</a>
+		</div>
+		
+	<!--displays the title and textboxes-->
+		<h1 align="center"> The Bookworm Bookstore</h1> <br/>
+
+		<form action="RegisterProcessor.php"
+		method="post">
+	
+		<table>
+		<tbody>
+		<tr>
+		<td colspan="2">Please enter the following information:</td>
+		</tr>
+		<tr>
+		<td>First Name:</td>
+		<td><input type="text" name="FName"></td>
+		</tr>
+		<tr>
+		<td>Middle Name:</td>
+		<td><input type="text" name="MName"></td>
+		</tr>
+		<tr>
+		<td>Last Name:</td>
+		<td><input type="text" name="LName"></td>
+		</tr>
+		<tr>
+		<td>E-Mail Address:</td>
+		<td><input type="text" name="Email"></td>
+		</tr>
+		<tr>
+		<td>Password:</td>
+		<td><input type="password" name="Password"></td>
+		</tr>
+		<tr>
+		<td>Age:</td>
+		<td><input type="text" name="Age"></td>
+		</tr>
+		<tr>
+		<td>Gender:</td>
+		<td><input type="text" name="Gender"></td>
+		</tr>
+		<tr>
+		<td>User Name:</td>
+		<td><input type="text" name="UName"></td>
+		</tr>
+		</tbody>
+		</table>
+
+		<input type="submit" value="Create Account">
+		
+		</form>
+
+	</body>
+	</center>
+</html>
