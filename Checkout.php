@@ -43,10 +43,10 @@ Listed below is your books that you plan to order.
 	<?php
 	//display the order details, then display a check out option below and use another php function to compute and display a thank you message
 	//autofill the options that can be filled
-	$serverName = "delphi.cs.uky.edu";
-	$username = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 
 	$conn = mysqli_connect($serverName, $username, $password, $dbName);
 
