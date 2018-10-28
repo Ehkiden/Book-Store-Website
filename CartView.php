@@ -38,10 +38,10 @@ Purpose:	Displays the users cart details
 
 <?php
 	//connect to the db
-	$serverName = "delphi.cs.uky.edu";
-	$username = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 
 	$conn = mysqli_connect($serverName, $username, $password, $dbName);
 
