@@ -10,10 +10,10 @@ Purpose:	Adds the requested book to the wishlist table in the db and redirects t
 		$ISBN = $_GET['ISBN'];
 	}
 	//connect to db
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 	
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 	
