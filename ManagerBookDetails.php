@@ -39,10 +39,10 @@ Purpose:	Displays the book info into textboxes, displays the keywords and subjec
 	}
 	
 	//connect to db
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 	
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 	
@@ -134,10 +134,10 @@ Purpose:	Displays the book info into textboxes, displays the keywords and subjec
 
 			<?php
 			//display the keywords list with an option to update or delete keywords and a textbox at the bottom to add a new keyword
-			$serverName = "delphi.cs.uky.edu"; 
-			$userName = "lnwo224";
+			$serverName = "server";
+			$userName = "username";
 			$password = "password";
-			$dbName = "lnwo224";
+			$dbName = "username";
 			
 			$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 			
@@ -180,10 +180,10 @@ Purpose:	Displays the book info into textboxes, displays the keywords and subjec
 
 			<?php
 			//display the keywords list with an option to update or delete keywords and a textbox at the bottom to add a new keyword
-			$serverName = "delphi.cs.uky.edu"; 
-			$userName = "lnwo224";
+			$serverName = "server";
+			$userName = "username";
 			$password = "password";
-			$dbName = "lnwo224";
+			$dbName = "username";
 			
 			$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 			
