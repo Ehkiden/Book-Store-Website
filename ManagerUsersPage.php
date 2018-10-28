@@ -62,10 +62,10 @@ Purpose:	Displays the textboxes and button to add new user
 
 		session_start();
 		//connects to the db
-		$serverName = "delphi.cs.uky.edu"; 
-		$userName = "lnwo224";
+		$serverName = "server";
+		$userName = "username";
 		$password = "password";
-		$dbName = "lnwo224";
+		$dbName = "username";
 		
 		$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 		
