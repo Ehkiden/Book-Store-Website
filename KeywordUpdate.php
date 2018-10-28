@@ -6,10 +6,10 @@
 		$Word_curr=$_GET['Key'];
 	}
 	//display the current keyword
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 	
 	$_SESSION['Word_old']=$Word_curr;
 
