@@ -36,10 +36,10 @@ Purpose:	Displays the wish list of the users desired books
 	</div>
 <?php
 	//connect to db
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 	
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 	
