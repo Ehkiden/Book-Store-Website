@@ -38,10 +38,10 @@ Purpose:	Displays the order history info acording to the user that is logged in.
 
 	<?php
 		//connect to the database
-		$serverName = "delphi.cs.uky.edu";
-		$username = "lnwo224";
+		$serverName = "server";
+		$userName = "username";
 		$password = "password";
-		$dbName = "lnwo224";
+		$dbName = "username";
 
 		$conn = mysqli_connect($serverName, $username, $password, $dbName);
 
