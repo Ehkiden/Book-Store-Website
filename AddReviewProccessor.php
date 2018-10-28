@@ -7,10 +7,10 @@ Original Author: Jared Rigdon
 Purpose:	Adds the user submitted data to the ratings table in the database and then redirects the page back to the current BookDetails page
 */
 	//connect to db
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server"; 
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 	
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 	
