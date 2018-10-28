@@ -15,10 +15,10 @@ Purpose:	Displays the subject that was requested to be updated into a textbox
 	$_SESSION['Subject_old']=$Subject_curr;
 
 	//display the current subject
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 	
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 	
