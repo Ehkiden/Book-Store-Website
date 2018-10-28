@@ -102,10 +102,10 @@ Purpose:	Display the logout, order history, wishlist, cart, search critea button
 	<?php
 
 	//connect to db
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 	
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 	
