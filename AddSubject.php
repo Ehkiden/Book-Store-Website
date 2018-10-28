@@ -6,10 +6,10 @@ Original Author: Patrick True
 Purpose:	Adds the keyword to the keyword table and redirects the current ManagerBookDetails.php
 */
 	//connect to db
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server"; 
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 
 	//gets the current isbn and passed in subject value
 	session_start();
