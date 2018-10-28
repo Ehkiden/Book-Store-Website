@@ -9,11 +9,10 @@ Purpose:	Deletes the desired rows from the database based on the passed in input
 */
 
 //donnect to db
-$serverName = "delphi.cs.uky.edu"; 
-$userName = "lnwo224";
+$serverName = "server";
+$userName = "username";
 $password = "password";
-$dbName = "lnwo224";
-
+$dbName = "username";
 session_start();
 
 $conn = mysqli_connect($serverName, $userName, $password, $dbName);
