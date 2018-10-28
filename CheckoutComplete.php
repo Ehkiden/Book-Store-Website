@@ -5,10 +5,10 @@ Original Author: Jared Rigdon
 Purpose:	Adds the new order to the account and displays a thank you page and link to return to the home page
 */
 	//add everything to the the order table and the order_isbn table
-	$serverName = "delphi.cs.uky.edu";
-	$username = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 
 	$conn = mysqli_connect($serverName, $username, $password, $dbName);
 
