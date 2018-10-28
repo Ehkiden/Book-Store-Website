@@ -12,10 +12,10 @@ Purpose:	Adds the new book to the db
 <?php
 
 	// DB connection info:
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 
 	// Connect to DB
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
