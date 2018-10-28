@@ -9,11 +9,11 @@ Purpose:	Updates the book details with the user input
 	session_start();
 	$ISBN = $_SESSION["ISBN_current"];
 	//connect to db
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
-
+	$dbName = "username";
+	
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
 
 	if(!$conn)
