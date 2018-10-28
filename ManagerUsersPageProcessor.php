@@ -11,10 +11,10 @@ Edits made by: Jared Rigdon
 Purpose:	Adds a new user to the db based on the manager input
 */
 	// DB connection info:
-	$serverName = "delphi.cs.uky.edu"; 
-	$userName = "lnwo224";
+	$serverName = "server";
+	$userName = "username";
 	$password = "password";
-	$dbName = "lnwo224";
+	$dbName = "username";
 
 	// Connect to DB
 	$conn = mysqli_connect($serverName, $userName, $password, $dbName);
